@@ -5,8 +5,8 @@
     "source": "onboard"
   },
   "database": {
-    "mode": "external",
-    "externalUrl": "${DATABASE_URL}"
+    "mode": "postgres",
+    "Url": "${DATABASE_URL}"
   },
   "backup": {
     "enabled": false
