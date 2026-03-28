@@ -15,7 +15,7 @@
     "logDir": "/root/.paperclip/instances/default/logs"
   },
   "server": {
-    "deploymentMode": "single_tenant",
+    "deploymentMode": "authenticated",
     "exposure": "private",
     "host": "0.0.0.0",
     "port": 3100,
