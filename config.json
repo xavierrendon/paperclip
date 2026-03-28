@@ -5,8 +5,7 @@
     "source": "onboard"
   },
   "database": {
-    "mode": "postgres",
-    "Url": "${DATABASE_URL}"
+    "mode": "postgres"
   },
   "backup": {
     "enabled": false
@@ -16,7 +15,7 @@
     "logDir": "/root/.paperclip/instances/default/logs"
   },
   "server": {
-    "deploymentMode": "local_trusted",
+    "deploymentMode": "single_tenant",
     "exposure": "private",
     "host": "0.0.0.0",
     "port": 3100,
